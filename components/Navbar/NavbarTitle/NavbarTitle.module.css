@@ -1,0 +1,50 @@
+.titleContainer {
+    margin-top: 100px;
+    width: 100;
+    position: absolute;
+}
+
+.titleContainer_scrolled {
+    width: auto;
+    position: fixed;
+}
+
+.title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 150px;
+    font-stretch: semi-expanded;
+    color: #ffffff;
+    transition: all 500ms ease-in-out;
+    z-index: 9;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.title_scrolled{
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    color: #303030;
+    transition: all 500ms ease-in-out;
+
+}
+
+.subtitle {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    font-stretch: semi-expanded;
+    color: #ffffff;
+    transition: all 500ms ease-in-out;
+    margin-left: 50px;
+}
+
+.subtitle_scrolled {
+    font-family: 'Dosis', sans-serif;
+    font-size: 0px;
+    font-stretch: semi-expanded;
+    color: #303030;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    margin-left: 50px;
+
+}
