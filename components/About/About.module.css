@@ -1,0 +1,16 @@
+.title {
+    font-size: 177px;
+    font-family: 'Dosis';
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.description {
+    font-size: 25px;
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-left: 5vw;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Dosis';
+}

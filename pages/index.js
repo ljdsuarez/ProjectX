@@ -1,11 +1,13 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
-
+import About from "../components/About/About";
+import ParallaxAnimation from "../components/AnimationUI/ParallaxAnimation";
+import Solutions from "../components/Solutions/Solutions";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Project-X</title>
         <meta
@@ -15,9 +17,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.bg1}>
+      <div className={styles.container}>
+        <Navbar />
+        <ParallaxAnimation parallaxSpeed=".7" src="/bg1.png" height="100vh" />
+        <Solutions />
+        <ParallaxAnimation
+          src="/bg2.jpg"
+          backgroundAttachment="fixed"
+          height="50vh"
+        />
+        <About />
       </div>
-      <Navbar />
     </div>
   );
 }

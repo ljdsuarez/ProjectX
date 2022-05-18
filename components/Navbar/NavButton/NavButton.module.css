@@ -3,6 +3,7 @@
   margin-top: 450px;
   position: absolute;
   height: 100vh;
+  z-index: 999;
 }
 
 .container_scrolled {
@@ -10,6 +11,7 @@
   width: 100%;
   position: fixed;
   height: 100vh;
+  z-index: 999;
 }
 
 .button {
